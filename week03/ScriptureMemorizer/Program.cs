@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
+
+        //Added a list of scriptures along with their references and I have it randomly select an index from the list to display the scripture to the user.
         List<(string scriptureText, Reference reference)> scriptures = new List<(string, Reference)>
         {
             ("And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.", 
